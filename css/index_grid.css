@@ -107,8 +107,8 @@
     }
     .grid-container {
         display: grid;
-        grid-template-columns: 60px 1fr 1fr 1fr 60px;
-        grid-template-rows: 60px 1fr 4fr 60px;
+        grid-template-columns: 60px 1fr 540px 1fr 60px;
+        grid-template-rows: 60px 1fr 500px 1fr 1fr;
     }
     .box {
         display: block;
@@ -116,8 +116,8 @@
         font-size: 100%;
     }
     .nav {
-        grid-column-start: 1;
-        grid-column-end: 6;
+        grid-column-start: 3;
+        grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
     }
@@ -143,8 +143,8 @@
     .footer {
         grid-column-start: 1;
         grid-column-end: 6;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
         color: white;
         background-color: #ff6200;
         text-align: center;
