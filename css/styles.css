@@ -154,10 +154,12 @@ form {
   color: rgb(255, 50, 84) !important;
 }
 /* Dropdown */
-/* .navbar {
+.navbar {
   font-family: 'Portfolio';
   overflow: hidden;
   background-color: #333;
+  align-content: center;
+  left: 500px;
 }
   
 .navbar a {
