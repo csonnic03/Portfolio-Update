@@ -134,6 +134,8 @@
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
+        margin-left: 13%;
+        margin-right: 13%;
     }
     .item1 img {
         display: relative;

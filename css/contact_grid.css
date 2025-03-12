@@ -135,8 +135,8 @@
         transform: translateY(20px);
         grid-column-start: 1;
         grid-column-end: 6;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 8;
         color: white;
         background-color: #ff6200;
         text-align: center;

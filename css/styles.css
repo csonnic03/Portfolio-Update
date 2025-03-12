@@ -55,6 +55,7 @@ footer {
   position: relative;
   color: blue;
   font-size: 30px;
+  margin-top: 0.1%;
 }
 .marquee p {
   position: absolute;
@@ -138,6 +139,7 @@ button {
 /* Nav Color */
 .nav {
   left: 100%;
+  margin-top: 1%;
 }
 .nav-color {
   background-color: #333 !important;
@@ -155,6 +157,12 @@ form {
   margin-top: 0.25rem;
   font-size: 0.875em;
   color: rgb(255, 50, 84) !important;
+}
+
+
+/* iFrame */
+iframe {
+  border-radius: 25px;
 }
 /* Dropdown */
 .navbar {
@@ -174,7 +182,9 @@ form {
 }
   
 .navbar a:hover {
-  background-color: red;
+  background-color: #71797E;
+  color: white;
+  border-radius: 25px;
 }
 
 /* Add a background color and some padding around the form */
